@@ -1,0 +1,22 @@
+@import "../../assets/common.less";
+* {
+  font-family: "OpenSans-Regular", sans-serif;
+
+}
+.custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: @theme-color;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #D04C71;
+  }
+}
