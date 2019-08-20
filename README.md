@@ -2,7 +2,7 @@
 
 ## VueJs template
 
->separated Code for better code readability separate files for html, js and styles
+>separated Code for better code readability, separate files for html, js and styles
 ## Build Setup
 
 ``` bash
