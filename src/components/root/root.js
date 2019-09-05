@@ -2,7 +2,7 @@
 
 import Vue from 'vue';
 import template from './root.html'
-import styles from './style.less'
+import styles from './root.less'
 
 export default Vue.extend({
   template: template,

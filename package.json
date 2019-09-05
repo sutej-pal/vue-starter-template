@@ -2,7 +2,7 @@
   "name": "vue-starter-template",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "sutejMaster <sutejpal@hotmail.com>",
+  "author": "sutej-pal <sutejpal@hotmail.com>",
   "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.conf.js",

@@ -1,7 +1,23 @@
 @import "../../assets/common.less";
+@import "../../assets/fonts.less";
 * {
   font-family: "OpenSans-Regular", sans-serif;
 
+}
+.vue-logo {
+  padding-top: 20vh;
+  img {
+    animation-name: logo-animation;
+    animation-duration: 3s;
+  }
+  h1 {
+    font-family: "OpenSans-Bold", sans-serif;
+  }
+}
+
+@keyframes logo-animation {
+  from {opacity: 0}
+  to {opacity: 1}
 }
 .custom-scrollbar {
   &::-webkit-scrollbar {
